@@ -1,0 +1,14 @@
+server:
+  port: 80
+
+spring:
+  #thymeleaf 설정
+  thymeleaf:
+    prefix: classpath:/templates/   # .html 파일을 불러오기 위한 경로 설정(src/main/resources/templates)
+    suffix: .html   # 파일 확장자
+    mode: HTML
+    encoding: UTF-8
+    cache: false
+    enabled: true
+    check-template-location: true
+    #view-names: /html/*
